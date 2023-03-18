@@ -2,6 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "noImplicitAny": true,
+    "sourceMap": true,
     "baseUrl": ".",
     "paths": {
       "@components/*":["src/components/*"],
