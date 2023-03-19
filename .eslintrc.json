@@ -4,6 +4,7 @@
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
     "prettier",
+    "plugin:react/jsx-runtime",
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "react", "prettier"],
