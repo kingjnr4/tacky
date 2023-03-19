@@ -4,8 +4,6 @@
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "react", "prettier"],
@@ -23,19 +21,16 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".ts", ".tsx", ".jsx", ".js"]
+        "extensions": [".ts", ".tsx"]
       }
     ],
     "prettier/prettier": [
       "error",
       {
         "singleQuote": true,
-        "trailingComma": "es5",
+        "trailingComma": "all",
         "arrowParens": "avoid",
-        "endOfLine": "auto",
-        "printWidth": 100,
-        "tabWidth": 2,
-        "bracketSameLine": true
+        "endOfLine": "auto"
       }
     ],
     "no-use-before-define": "off",
